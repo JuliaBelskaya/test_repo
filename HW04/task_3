@@ -1,5 +1,5 @@
 dct = {'test': 'test_value', 'europe': 'eur', 'dollar': 'usd', 'ruble': 'rub'}
-keys_list = list(dct.keys())
+keys_list = list(dct.keys()) #key_list = list(dct)
 i = 0
 while i < len(keys_list):
     new_key = f"{keys_list[i]}{len(keys_list[i])}"
