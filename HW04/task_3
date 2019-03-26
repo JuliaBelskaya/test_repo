@@ -3,7 +3,7 @@ keys_list = list(dct.keys())
 i = 0
 while i < len(keys_list):
     new_key = f"{keys_list[i]}{len(keys_list[i])}"
-    dct[new_key] = dct[keys_list[i]]
+    dct[new_key] = dct[keys_list[i]] #dct[new_key] = dct.pop(keys_list[i])
     del dct[keys_list[i]]
     i += 1
 print(dct)
