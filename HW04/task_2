@@ -2,7 +2,7 @@ lst = list(range(1, 11))
 n_even = 0
 i = 0
 while i < len(lst):
-    if lst[i] % 2 == 0:
+    if lst[i] % 2 == 0: #if not list[i] % 2:
         n_even += 1
     i += 1
 print(n_even)
