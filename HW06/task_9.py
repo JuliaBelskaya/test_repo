@@ -16,7 +16,7 @@ trains = [
   {
         'number': '412397',
         'from': 'Kiyv',
-        'to': 'Minsk,
+        'to': 'Minsk',
         'departure': 14-00,
         'arrival': 23-30,
   },
