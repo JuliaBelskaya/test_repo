@@ -1,1 +1,13 @@
-/home/jul/PycharmProjects/Work/task/task_3.py
+
+for n in range(200, 300):
+    s = 0
+for i in range(1, n):
+    if n % i == 0:
+        s += i
+    if s > n:
+        result = 0
+for i in range(1, s):
+    if s % i == 0:
+        result += i
+    if result == n:
+        print(n, s)

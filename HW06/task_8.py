@@ -1,1 +1,4 @@
-/home/jul/PycharmProjects/Work/task/task_8.py
+string = input ('-->') 
+string = string.split(' ')
+string = string[::-1]
+print(string)
