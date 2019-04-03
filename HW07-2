@@ -69,8 +69,8 @@ def L_to_pt(L):
     pt = L * 2.113
     return pt
 
-n = int(input('Write from 1 to 12'))
-k = int(input('Write численное значение'))
+n = int(input('Write from 1 to 12: '))
+k = int(input('Write численное значение: '))
 while True:
     if n == 0:
         print('Goodbye')
