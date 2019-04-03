@@ -1,71 +1,71 @@
 # 1. 
-def funct(dm):
+def dm_to_cm(dm):
     cm = dm* 2.54
     return cm
-print(funct(5))
+print(dm_to_cm(5))
 
 # 2.
-def funct(cm):
+def cm_to_dm(cm):
     dm = cm / 2.54
     return dm
-print(funct(5))
+print(cm_to_dm(5))
 
 # 3.
-def funct(ml):
+def ml_to_km(ml):
     km = ml * 1.609
     return km
-print(funct(5))
+print(ml_to_km(5))
 
 # 4.
-def funct(km):
+def km_to_ml(km):
     ml = km / 1.609
     return ml
-print(funct(5))
+print(km_to_ml(5))
 
 # 5.
-def funct(lb):
+def lb_to_kg(lb):
     kg = lb / 2.205
     return kg
-print(funct(5))
+print(lb_to_kg(5))
 
 # 6.
-def funct(kg):
+def kg_to_lb(kg):
     funt = kg * 2.205
     return funt
-print(funct(5))
+print(kg_to_lb(5))
 
 # 7.
-def funct(oz):
+def oz_to_gr(oz):
     gr = oz * 28.35
     return gr
-print(funct(5))
+print(oz_to_gr(5))
 
 # 8.
-def funct(gr):
+def gr_to_oz(gr):
     oz = gr / 28.35
     return oz
-print(funct(5))
+print(gr_to_oz(5))
 
 # 9. 
-def funct(gal):
+def gal_to_L(gal):
     L = gal * 3.785
     return L
-print(funct(5))
+print(gal_to_L(5))
 
 # 10.
-def funct(L):
+def L_to_gal(L):
     gal = L / 3.785
     return gal
-print(funct(5))
+print(L_to_gal(5))
 
 # 11.
-def funct(pt):
+def pt_to_L(pt):
     L = pt / 2.113
     return L
-print(funct(5))
+print(pt_to_L(5))
 
 # 12.
-def funct(L):
+def L_to_pt(L):
     pt = L * 2.113
     return pt
-print(funct(5))
+print(L_to_pt(5))
