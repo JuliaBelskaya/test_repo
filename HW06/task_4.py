@@ -1,0 +1,1 @@
+/home/jul/PycharmProjects/Work/task/task_4.py
