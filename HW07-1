@@ -1,0 +1,71 @@
+# 1. 
+def funct(dm):
+    cm = dm* 2.54
+    return cm
+print(funct(5))
+
+# 2.
+def funct(cm):
+    dm = cm / 2.54
+    return dm
+print(funct(5))
+
+# 3.
+def funct(ml):
+    km = ml * 1.609
+    return km
+print(funct(5))
+
+# 4.
+def funct(km):
+    ml = km / 1.609
+    return ml
+print(funct(5))
+
+# 5.
+def funct(lb):
+    kg = lb / 2.205
+    return kg
+print(funct(5))
+
+# 6.
+def funct(kg):
+    funt = kg * 2.205
+    return funt
+print(funct(5))
+
+# 7.
+def funct(oz):
+    gr = oz * 28.35
+    return gr
+print(funct(5))
+
+# 8.
+def funct(gr):
+    oz = gr / 28.35
+    return oz
+print(funct(5))
+
+# 9. 
+def funct(gal):
+    L = gal * 3.785
+    return L
+print(funct(5))
+
+# 10.
+def funct(L):
+    gal = L / 3.785
+    return gal
+print(funct(5))
+
+# 11.
+def funct(pt):
+    L = pt / 2.113
+    return L
+print(funct(5))
+
+# 12.
+def funct(L):
+    pt = L * 2.113
+    return pt
+print(funct(5))
