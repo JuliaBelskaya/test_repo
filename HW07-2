@@ -1,1 +1,82 @@
+# 1. 
+def dm_to_cm(dm):
+    cm = dm* 2.54
+    return cm
 
+
+# 2.
+def cm_to_dm(cm):
+    dm = cm / 2.54
+    return dm
+
+
+# 3.
+def ml_to_km(ml):
+    km = ml * 1.609
+    return km
+
+
+# 4.
+def km_to_ml(km):
+    ml = km / 1.609
+    return ml
+
+
+# 5.
+def lb_to_kg(lb):
+    kg = lb / 2.205
+    return kg
+
+
+# 6.
+def kg_to_lb(kg):
+    funt = kg * 2.205
+    return funt
+
+
+# 7.
+def oz_to_gr(oz):
+    gr = oz * 28.35
+    return gr
+
+
+# 8.
+def gr_to_oz(gr):
+    oz = gr / 28.35
+    return oz
+
+
+# 9. 
+def gal_to_L(gal):
+    L = gal * 3.785
+    return L
+
+
+# 10.
+def L_to_gal(L):
+    gal = L / 3.785
+    return gal
+
+
+# 11.
+def pt_to_L(pt):
+    L = pt / 2.113
+    return L
+
+
+# 12.
+def L_to_pt(L):
+    pt = L * 2.113
+    return pt
+
+n = int(input('Write from 1 to 12'))
+k = int(input('Write численное значение'))
+while True:
+    if n == 0:
+        print('Goodbye')
+        break
+    elif n not in range(1, 12):
+        print('Write correct number')
+        continue
+    elif n == 1:
+        print(dm_to_cm(k))
