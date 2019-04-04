@@ -85,9 +85,9 @@ print(f"Enter:"
       f"\n\t12 to convert liters to pints "
       )
 
-user_choice = int(input("Enter your choice [1-12] or enter 0 to exit: "))
 
 while True:
+    user_choice = int(input("Enter your choice [1-12] or enter 0 to exit: "))
     if user_choice == 0:
         print('Goodbye')
         break
