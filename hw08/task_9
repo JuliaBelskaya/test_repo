@@ -1,0 +1,20 @@
+from math import factorial as fact
+from math import sin
+
+
+def Sin1(x: float, e: float) -> float:
+    sin_x = 0
+
+    i = 0
+    x_i = x  # (–1)^0 · x^(2·0+1) / (2·0 +1)! = x
+    while x_i > e:
+        sin_x += (-1) ** i * x_i
+        i += 1
+        x_i = x ** (2 * i + 1) / fact(2 * i + 1)
+
+    return sin_x
+
+x = 1
+for i in range(3, 9):
+    e = 10 ** -i
+    print(f'{x} = x, e = {e}:\n\t{sin(x)}\n\t{Sin1(x, e)}\n')

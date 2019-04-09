@@ -1,0 +1,9 @@
+def fact2(n: int):
+    mult = 2 ** (1 - n % 2)
+
+for i in range(mult, n + 1, 2):
+        mult *= i
+    return mult
+
+print(fact2(9))
+print(fact2(10))

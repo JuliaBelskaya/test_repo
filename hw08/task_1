@@ -1,0 +1,23 @@
+def avr(*args):
+    average = sum(args) / len(args)
+    return average
+
+from math import sqrt
+
+def geom(*args):
+    x = 1
+    i = 0
+    x *= args[i]
+    geometric = sqrt(x)
+    return geometric
+    
+def func(*args, **kwargs):
+    average = 1
+    geometric = 1
+    for key, value in kwargs.keys():
+        if key == average:
+            avr(5, 5)
+        elif key == geometric:
+            geom(5, 6)
+print(f'{key}: {value}')
+        
