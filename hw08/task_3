@@ -1,0 +1,7 @@
+from math import sqrt
+
+def func(x):
+    return (sqrt(x) + x) / 2
+
+x = func(5) + func(12) + func(19)
+print(x)
