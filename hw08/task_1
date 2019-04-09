@@ -16,8 +16,8 @@ def func(*args, **kwargs):
     geometric = 1
     for key, value in kwargs.keys():
         if key == average:
-            print(avr(5, 5))
+            avr(5, 5)
         elif key == geometric:
-            print(geom(5, 6))
+            geom(5, 6)
 print(f'{key}: {value}')
         
