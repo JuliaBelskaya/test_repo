@@ -1,0 +1,11 @@
+from math import sqrt
+def solver(a,b,c):
+    D = b*b - 4*a*c
+    if D >= 0:
+        x1 = (-b + sqrt(D)) / (2*a)
+        x2 = (-b - sqrt(D)) / (2*a)
+        text = (f'The discriminant is: {D} \n X1 is: {x1} \n X2 is: {x2} \n')       
+    else:
+        text = (f'The discriminant is: {D} \n This equation has no solutions')
+    return text
+print(solver(21, 36, -12))
