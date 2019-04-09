@@ -1,0 +1,14 @@
+from random import randint    
+lst = []
+dct = {}
+def make_list(elem):
+    for i in range(elem):
+        lst.append(int(randint(1, 10)))
+ 
+def analysis():
+    for i in lst:
+        dct[i] = dct.get(i, 0) + 1
+       
+make_list(5)
+analysis()
+print(dct)
