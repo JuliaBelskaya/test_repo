@@ -5,16 +5,14 @@
 
 def even_nums(func):
     def wrapper (*args, **kwargs):
-        new_args = [[elem for i, elem in enumerate(arg) if i % 2 != 0] for arg in args]
-        return func(*new_args, **kwargs)
+        new_args = [elem for i, elem in enumerate(*args) if i % 2 != 0]
+        return func(new_args, **kwargs)
     return wrapper
 
-
 @even_nums
-def print_list(*args):
-   print(args)
+def print_list(lst: list):
+   print(lst)
 
 
 lst = [1, 2, 3, 4]
-lst2 = list(range(5, 10))
-print_list(lst, lst2)
+print_list(lst)
