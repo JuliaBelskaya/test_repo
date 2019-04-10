@@ -5,7 +5,7 @@
 
 def even_nums(func):
     def wrapper (*args, **kwargs):
-        new_args = [[x for x in arg if x % 2 != 0] for arg in args]
+        new_args = [[elem for i, elem in enumerate(arg) if i % 2 != 0] for arg in args]
         return func(*new_args, **kwargs)
     return wrapper
 
