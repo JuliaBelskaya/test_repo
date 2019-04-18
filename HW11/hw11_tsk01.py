@@ -143,12 +143,12 @@ class Figure:
     
     def perimeter(self):
         P = 2 * 3.14 * self.__radius
-        print(f'perimeter = {P})
+        print(f'perimeter = {P}')
        
         
     def square(self):
         S = 3.14 * (self.__radius ** 2)
-        print(f' square = {S})
+        print(f' square = {S}')
         
         
 figure = Figure("Circle", "yellow")
@@ -192,13 +192,13 @@ class Rectangle:
 
     def square(self):
         S = self.__width * self.__height
-        # print(f'square = {S}')
-        print(S)
+        print(f'square = {S}')
+        
         
     def diagonal(self):
         d = 2 * self.__radius
-        # print(f'diagonal = {d}')
-        print(d)
+        print(f'diagonal = {d}')
+        
         
 figure = Rectangle(5, 6, 7)
 print(figure.width)
