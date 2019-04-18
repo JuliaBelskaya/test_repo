@@ -51,19 +51,6 @@ class Cat:
         self.__hunger -= 1
             
 #2            
-cat = Cat("Kitty", "15 kg", "3 years old")
-print(cat.name)
-cat.name = 'Simon'
-print(cat.name)
-print(cat.weight)
-print(cat.age)
-print(cat.hunger)
-cat.hunger = 5
-cat.meow()
-cat.tired()
-print(cat.hunger)
-
-
 class Human:
     def __init__(self, name, job, pay):
         self.__name = name
