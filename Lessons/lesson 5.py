@@ -41,26 +41,41 @@
 
 
 from random import randint
+
+n = int(input('n: '))
+
 matrix = []
-n = int(input('Введите число '))
+
 for i in range(n):
-    row = []  #создать строку
+    row = []
     for j in range(n):
-        row.append(randint(1, 9))     #заполняем числа которые сделали строкой str(randit(1, 9))
+        row.append(str(randint(1, 9)))
     matrix.append(row)
-#print(matrix)
-#
+print(matrix)
+
 for i in range(n):
-   print(matrix[i])
-
-# for i in range(n):
-#     print(' '.join(matrix[i]))
-
+    row = ' '.join(matrix[i])
+    print(row)
+    
 #Найти сумму всех элементов матрицы которые кратны 3
+
+from random import randint
+
+n = int(input('n: '))
+
+matrix = []
+
+for i in range(n):
+    row = []
+    for j in range(n):
+        row.append(randint(1, 9))
+    matrix.append(row)
+print(matrix)
+
 summ = 0
 for i in range(n):
     for j in range(n):
-        if matrix[i][j] % 3 == 0:               #чтобы работало, нужно, чтобы row была числом, а не строкой
+        if not matrix[i][j] % 3:
             summ += matrix[i][j]
 print(summ)
 
