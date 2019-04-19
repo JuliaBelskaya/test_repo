@@ -51,3 +51,64 @@ for pupil in pupils:
         for key, value in pupil.items():
             print(f'{key}: {value}')
         print('****')
+
+        
+# Дан двухмерный массив n × m элементов. 
+# Определить, сколько раз встречается 
+# число 7 среди элементов массива.[02-4.2-BL12]
+
+from random import randint
+
+n = int(input('n: '))
+m = int(input('m: '))
+
+matrix = []
+for i in range(n):
+    row = []
+    for j in range(m):
+        row.append(randint(0, 9))
+    matrix.append(row)
+
+counter = 0
+
+
+for row in matrix:
+    print(row)
+    for elem in row:
+        if elem == 7:
+            counter += 1
+print(counter)
+
+
+# Дана целочисленная матрица А[n,m]. 
+# Посчитать количество элементов матрицы,
+# превосходящих среднее арифметическое значение 
+# элементов матрицы и сумма индексов которых четна.[02-4.2-BL23]
+
+from random import randint
+
+n = int(input('n: '))
+m = int(input('m: '))
+
+matrix = []
+for i in range(n):
+    row = []
+    for j in range(m):
+        row.append(randint(0, 9))
+    matrix.append(row)
+
+summ = 0
+for row in matrix:
+    for elem in row:
+        summ += elem
+
+mean = summ / (n * m)
+print(mean)
+
+counter = 0
+for i, row in enumerate(matrix):
+    print(row)
+    for j, elem in enumerate(row):
+        if elem > mean and not (i + j) % 2:
+            counter += 1
+print(counter)
