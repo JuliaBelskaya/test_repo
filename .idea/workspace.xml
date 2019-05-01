@@ -2,24 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bca7634b-38ec-4a61-a510-69489656c70a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/HW10/ml29.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW10/t01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW10/t02/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW10/t02/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW10/t02/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW10/t06.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW10/t28.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW10/t29.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW10/t31.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW12/t02.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW12/t03.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW13/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW13/task01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW13/task02/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW13/task02/classes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW13/task02/exceptions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW13/task02/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW13/task02/validators.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW14/scr/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW14/scr/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lessons/lesson15.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lessons/lesson_15/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lessons/lesson_15/basic test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lessons/lesson_15/func.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/test_repo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/test_repo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HW07/HW07_1.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/HW07/hw07_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW07/hw07_2.py" afterDir="false" />
@@ -33,19 +23,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HW10/t02/main.py">
+        <entry file="file://$PROJECT_DIR$/Lessons/lesson_15/func.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="877">
-              <caret line="64" column="10" selection-start-line="64" selection-start-column="10" selection-end-line="64" selection-end-column="10" />
+            <state relative-caret-position="340">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/HW10/t02/utils.py">
+        <entry file="file://$PROJECT_DIR$/Lessons/lesson_15/basic test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3000">
-              <caret line="150" column="29" selection-start-line="150" selection-start-column="29" selection-end-line="150" selection-end-column="29" />
+            <state relative-caret-position="394">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
             </state>
           </provider>
         </entry>
@@ -60,7 +50,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Lessons" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -82,10 +72,14 @@
         <option value="$PROJECT_DIR$/HW13/task02/validators.py" />
         <option value="$PROJECT_DIR$/HW13/task02/main.py" />
         <option value="$PROJECT_DIR$/HW13/task02/classes.py" />
+        <option value="$PROJECT_DIR$/Lessons/lesson15.py" />
+        <option value="$PROJECT_DIR$/Lessons/lesson 15/func.py" />
+        <option value="$PROJECT_DIR$/Lessons/lesson 15/basic test.py" />
+        <option value="$PROJECT_DIR$/Lessons/lesson_15/basic test.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="966" />
     <option name="width" value="954" />
     <option name="height" value="1080" />
@@ -98,6 +92,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane" />
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -105,46 +100,14 @@
               <item name="test_repo" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
             </path>
-            <path>
-              <item name="test_repo" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="HW10" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="test_repo" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="HW10" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="t02" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="test_repo" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="HW11" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="test_repo" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="HW12" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="test_repo" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="HW13" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="test_repo" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="Lessons" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/3.7.venv" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -159,7 +122,49 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.basic test">
+    <configuration name="basic test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="test_repo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lessons/lesson_15" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lessons/lesson_15/basic test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="lesson15" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="test_repo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lessons" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lessons/lesson15.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="ls12" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="test_repo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -183,6 +188,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.basic test" />
+        <item itemvalue="Python.lesson15" />
         <item itemvalue="Python.ls12" />
       </list>
     </recent_temporary>
@@ -210,22 +217,22 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="966" y="0" width="954" height="1080" extended-state="0" />
+    <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25349087" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12177122" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32979852" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32979852" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32979852" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.28950158" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32979852" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32979852" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32979852" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -272,9 +279,7 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/HW11/hw11_tsk1.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/HW11/hw11_tsk1.py" />
     <entry file="file://$PROJECT_DIR$/Lessons/ls12.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
@@ -384,17 +389,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HW10/t02/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="877">
-          <caret line="64" column="10" selection-start-line="64" selection-start-column="10" selection-end-line="64" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HW10/t02/utils.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3000">
           <caret line="150" column="29" selection-start-line="150" selection-start-column="29" selection-end-line="150" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HW10/t02/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="773">
+          <caret line="64" column="10" selection-start-line="64" selection-start-column="10" selection-end-line="64" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HW14/scr/matrix_utils/matrix_classes.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HW14/scr/matrix_utils/main.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HW14/scr/matrix_utils/matrix_funcs.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HW14/scr/calc_functions/ui_func.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HW14/scr/calc_functions/func.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lessons/lesson15.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lessons/lesson_15/func.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lessons/lesson_15/basic test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
         </state>
       </provider>
     </entry>
